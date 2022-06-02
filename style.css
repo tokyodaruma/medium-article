@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Lato:wght@100;400;700&display=swap');
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  color: #0081a7;
+}
+
+.banner p {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+body {
+  color: #00afb9;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #f07167;
+}
+
+a:hover {
+  color: #fed9b7;
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
